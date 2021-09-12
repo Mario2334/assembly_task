@@ -3,9 +3,12 @@
 ## Introduction
 
 ---
-Museum Visitor API to get visitor data for a month based on https://data.lacity.org/Arts-Culture/Museum-Visitors/trxm-jn3c
+Museum Visitor API to get visitor data for a month based on given [data](https://data.lacity.org/Arts-Culture/Museum-Visitors/trxm-jn3c).
+This API is built on Express and Node js and Soda API layer.
 
-Museum Visitors KPI for a month
+API Doc:
+
+* Museum Visitors KPI for a month
 
 `GET /api/visitors?date=1404198000231`
 
@@ -27,7 +30,7 @@ total: 60535
 }
 }`
 
-Museum Visitors KPI for a month and ignore the museum
+* Museum Visitors KPI for a month and ignore the museum
 
 `GET /api/visitors?date=1404198000231&ignore=visitor_center_avila_adobe`
 
