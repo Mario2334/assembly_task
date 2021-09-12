@@ -1,0 +1,26 @@
+{
+  "name": "assembly-task",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "cross-env APP_ENV=test jest"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^7.0.3",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.1.4",
+    "express-validator": "^6.10.1",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "soda-js": "^0.2.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.1.1",
+    "supertest": "^6.1.6"
+  }
+}
